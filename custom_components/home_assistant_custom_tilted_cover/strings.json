@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Home Assistant Custom Tilted Cover",
+        "description": "Configure your tilted cover by providing the required entities and timings.",
+        "data": {
+          "name": "Name",
+          "up_switch_entity_id": "Up Switch Entity",
+          "down_switch_entity_id": "Down Switch Entity",
+          "travel_time_down": "Travel Time Down (s)",
+          "travel_time_up": "Travel Time Up (s)",
+          "tilt_time_open": "Tilt Open Time (s)",
+          "tilt_time_close": "Tilt Close Time (s)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  }
+}
